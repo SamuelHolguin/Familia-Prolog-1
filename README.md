@@ -1,6 +1,7 @@
 # Familia-Prolog
 # Prolog
-**Lenguaje de programación lógico e interpretado [Prolog](https://www.ecured.cu/Prolog_(lenguaje_de_programaci%C3%B3n))**. La programación lógica es un paradigma de los lenguajes de programación en el cual los programas se consideran como una serie de aserciones lógicas. De esta forma, el conocimiento se representa mediante reglas, tratándose de sistemas declarativos-
+**Lenguaje de programación lógico e interpretado [Prolog](https://www.ecured.cu/Prolog_(lenguaje_de_programaci%C3%B3n))**. La programación lógica es un paradigma de los lenguajes de programación en el cual los programas se consideran como una serie de aserciones lógicas. De esta forma, el conocimiento se representa mediante reglas, tratándose de sistemas declarativos.
+a continuación se mostraran algunos elementos simples que fueron necesarios para realizar el programa de familia, el cual muestra quienes son familia, quien es feliz, quien esta casado, entre otras.
 ## Elementos en prolog
 * Átomos: Es una definición genérica de un objeto del mundo que queremos representar.
 * Predicados: Nos permite especificar características de los objetos de nuestro mundo o las relaciones entre ellos.
@@ -31,3 +32,8 @@ Que el suelo está, mojado, es una condición suficiente de que el tiempo sea ll
 **suelo(mojado):- tiempo(lluvioso). suelo(mojado)**.
 
 Adviértase que la regla está "al revés". Esto es así por el mecanismo de deducción hacia atrás que emplea PROLOG.
+## Referencias
+* <https://www.ecured.cu/Prolog_(lenguaje_de_programaci%C3%B3n)>
+* <http://www.cs.us.es/~fsancho/?e=73>
+* <https://users.dcc.uchile.cl/~abassi/IA/Prolog.html>
+* <http://www.gedlc.ulpgc.es/docencia/lp/documentacion/GB_Prolog.pdf>
